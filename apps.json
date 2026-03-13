@@ -28,6 +28,7 @@
       "github": "https://github.com/stedwick/mynetworth",
       "homepage": "https://mynetworthone.com",
       "language": "TypeScript",
+      "requirements": "Chrome on Windows, Mac, Linux, iPhone, and Android.",
       "features": [
         "Track traditional and crypto assets together on one page",
         "Support Yahoo Finance symbols plus Bitcoin, Ethereum and EVM wallets, and Solana wallets",
@@ -107,6 +108,7 @@
       "github": "https://github.com/stedwick/pokertracker",
       "homepage": "https://pokertracker-23081.web.app",
       "language": "JavaScript",
+      "requirements": "Web browser on desktop or mobile.",
       "features": [
         "Track poker winnings and losses in the browser",
         "Keep a running PnL history for live play",
@@ -130,6 +132,7 @@
       "github": "https://github.com/stedwick/munch",
       "homepage": "https://stedwick.github.io/munch/",
       "language": "HTML",
+      "requirements": "Web browser on desktop or mobile.",
       "features": [
         "Play Munch instantly in the browser",
         "Challenge a computer opponent using winning board states",
