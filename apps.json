@@ -18,9 +18,9 @@
     {
       "id": "my-net-worth",
       "name": "My Net Worth",
-      "subtitle": "Track stocks, crypto, retirement, and debt in one table",
-      "description": "All your assets on one page in a single table, including stocks, crypto, retirement accounts, credit cards, and debt.",
-      "longDescription": "Track your full net worth from one browser app. My Net Worth pulls your assets and liabilities into a single view so you can follow stocks, ETFs, crypto wallets, retirement accounts, cash, loans, and credit cards without juggling separate spreadsheets.",
+      "subtitle": "All your stocks, ETFs, crypto wallets, 401(k), on one page",
+      "description": "See stocks, ETFs, crypto wallets, retirement accounts, and debt on one page with hourly price updates and no account connections.",
+      "longDescription": "My Net Worth was built to put Fidelity 401(k)s, Vanguard investments, E-Trade and IBKR stocks, bank accounts, and crypto wallets on one page. It is intentionally simple and safe: nothing connects directly to your accounts, and live prices refresh hourly so you can track your full portfolio across TradFi and DeFi in one place.",
       "icon": "https://mynetworthone.com/icon-full.png",
       "category": ["web", "finance", "productivity"],
       "platform": "Web",
@@ -29,9 +29,9 @@
       "homepage": "https://mynetworthone.com",
       "language": "TypeScript",
       "features": [
-        "Track stocks, ETFs, crypto wallets, retirement accounts, debt, and cash in one place",
-        "See your full net worth on one page in a single table",
-        "Use a browser-based workflow instead of a spreadsheet"
+        "Track traditional and crypto assets together on one page",
+        "Support Yahoo Finance symbols plus Bitcoin, Ethereum and EVM wallets, and Solana wallets",
+        "Keep accounts disconnected while prices refresh hourly"
       ],
       "screenshots": [
         "https://mynetworthone.com/screenshot-light.png",
@@ -71,9 +71,9 @@
     {
       "id": "tater-talk",
       "name": "Tater Talk",
-      "subtitle": "Free cross-platform speech-to-text dictation in your browser",
-      "description": "Transform your voice into text with a free, browser-based dictation app for desktop and mobile. No downloads. Start dictating now.",
-      "longDescription": "Tater Talk turns voice into text directly in the browser across desktop, tablet, and mobile. It is built for quick dictation, accessibility, and prompt-heavy workflows where speaking is faster than typing.",
+      "subtitle": "The simplest speech-to-text dictation web-app on Win/Mac/Nix",
+      "description": "The easiest way to talk to your computer on Win, Mac, Linux, iOS, Android, and the browser with optional bring-your-own premium speech models.",
+      "longDescription": "Tater Talk is a browser-based dictation app built to make talking to your computer feel simple across Windows, macOS, Linux, iPhone, Android, and the web. The current version adds a polished redesign and bring-your-own API key support for premium speech-to-text providers such as Microsoft Azure and AssemblyAI.",
       "icon": "https://tatertalk.app/logo.png",
       "iconStyle": {
         "objectFit": "contain",
@@ -88,8 +88,8 @@
       "language": "TypeScript",
       "features": [
         "Browser-based speech-to-text with no install",
-        "Works across desktop and mobile devices",
-        "Built for accessibility, productivity, and hands-free workflows"
+        "Works across Win, Mac, Linux, iOS, Android, and desktop browsers",
+        "Supports bring-your-own API keys for premium speech-to-text models"
       ],
       "screenshots": [
         "https://tatertalk.app/twitter2.jpg"
