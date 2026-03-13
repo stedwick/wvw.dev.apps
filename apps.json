@@ -1,0 +1,138 @@
+{
+  "$schema": "https://wvw.dev/apps.schema.json",
+  "store": {
+    "name": "Phil Zapps",
+    "developer": "Philip Brocoum",
+    "tagline": "Accessibility tools, finance trackers, and small web experiments by Philip Brocoum.",
+    "url": "https://philipbrocoum.com",
+    "github": "https://github.com/stedwick"
+  },
+  "categories": [
+    { "id": "web", "name": "Web Apps" },
+    { "id": "finance", "name": "Finance" },
+    { "id": "productivity", "name": "Productivity" },
+    { "id": "utilities", "name": "Utilities" },
+    { "id": "games", "name": "Games" }
+  ],
+  "apps": [
+    {
+      "id": "my-net-worth",
+      "name": "My Net Worth",
+      "subtitle": "Track stocks, crypto, retirement, and debt in one table",
+      "description": "All your assets on one page in a single table, including stocks, crypto, retirement accounts, credit cards, and debt.",
+      "longDescription": "Track your full net worth from one browser app. My Net Worth pulls your assets and liabilities into a single view so you can follow stocks, ETFs, crypto wallets, retirement accounts, cash, loans, and credit cards without juggling separate spreadsheets.",
+      "icon": "https://mynetworthone.com/icon-full.png",
+      "category": ["web", "finance", "productivity"],
+      "platform": "Web",
+      "price": "Free",
+      "github": "https://github.com/stedwick/mynetworth",
+      "homepage": "https://mynetworthone.com",
+      "language": "TypeScript",
+      "features": [
+        "Track stocks, ETFs, crypto wallets, retirement accounts, debt, and cash in one place",
+        "See your full net worth on one page in a single table",
+        "Use a browser-based workflow instead of a spreadsheet"
+      ],
+      "screenshots": [
+        "https://mynetworthone.com/screenshot-light.png",
+        "https://mynetworthone.com/full-screenshot-light.png"
+      ]
+    },
+    {
+      "id": "philnav",
+      "name": "PhilNav",
+      "subtitle": "Infrared head mouse for hands-free computer control",
+      "description": "Control your computer hands-free with a reflective sticker and a Raspberry Pi-powered infrared head mouse running at 75 FPS.",
+      "longDescription": "PhilNav is a custom infrared head mouse that lets you move the cursor hands-free by tracking a reflective sticker on your head. The software is open source on GitHub, and this listing points to the assembled Gumroad hardware package built by Philip Brocoum for accessibility-focused computing.",
+      "icon": "https://public-files.gumroad.com/0nnvduycqqoj9l0bvocbiw2fclq9",
+      "iconEmoji": "🖱️",
+      "iconStyle": {
+        "objectFit": "cover",
+        "borderRadius": "16%"
+      },
+      "category": ["utilities", "productivity"],
+      "platform": "Raspberry Pi + Desktop",
+      "price": "$400",
+      "github": "https://github.com/stedwick/PhilNav-Python-RaspberryPi",
+      "homepage": "https://philipb.gumroad.com/l/philnav",
+      "language": "Python",
+      "requirements": "Raspberry Pi hardware on the server side plus a Windows, macOS, or Linux client machine.",
+      "features": [
+        "Hands-free cursor movement using infrared head tracking",
+        "Runs at 75 FPS with low-latency mouse control",
+        "Cross-platform client support for Windows, macOS, and Linux"
+      ],
+      "screenshots": [
+        "https://public-files.gumroad.com/0nnvduycqqoj9l0bvocbiw2fclq9",
+        "https://public-files.gumroad.com/r90bnxjjxjon9elzz1jg6wi5zbfb",
+        "https://public-files.gumroad.com/nitn1j03grwcy2fn912h4kua8d90"
+      ]
+    },
+    {
+      "id": "tater-talk",
+      "name": "Tater Talk",
+      "subtitle": "Free cross-platform speech-to-text dictation in your browser",
+      "description": "Transform your voice into text with a free, browser-based dictation app for desktop and mobile. No downloads. Start dictating now.",
+      "longDescription": "Tater Talk turns voice into text directly in the browser across desktop, tablet, and mobile. It is built for quick dictation, accessibility, and prompt-heavy workflows where speaking is faster than typing.",
+      "icon": "https://tatertalk.app/logo.png",
+      "iconStyle": {
+        "objectFit": "contain",
+        "bgColor": "#0f172a",
+        "padding": "14%"
+      },
+      "category": ["web", "productivity", "utilities"],
+      "platform": "Web",
+      "price": "Free",
+      "github": "https://github.com/stedwick/philsdictationapp",
+      "homepage": "https://tatertalk.app",
+      "language": "TypeScript",
+      "features": [
+        "Browser-based speech-to-text with no install",
+        "Works across desktop and mobile devices",
+        "Built for accessibility, productivity, and hands-free workflows"
+      ],
+      "screenshots": [
+        "https://tatertalk.app/twitter2.jpg"
+      ]
+    },
+    {
+      "id": "poker-tracker",
+      "name": "Poker Tracker",
+      "subtitle": "Track your live poker PnL with a simple web app",
+      "description": "Easily track your poker PnL.",
+      "longDescription": "Poker Tracker is a lightweight web app for tracking live poker winnings and losses over time. It focuses on fast entry and clear bankroll visibility without the overhead of a larger gambling analytics platform.",
+      "icon": "https://pokertracker-23081.web.app/logo192-masked.png",
+      "category": ["web", "finance"],
+      "platform": "Web",
+      "price": "Free",
+      "github": "https://github.com/stedwick/pokertracker",
+      "homepage": "https://pokertracker-23081.web.app",
+      "language": "JavaScript",
+      "features": [
+        "Track poker winnings and losses in the browser",
+        "Keep a running PnL history for live play",
+        "Simple interface built for personal bankroll tracking"
+      ]
+    },
+    {
+      "id": "munch",
+      "name": "Munch",
+      "subtitle": "Can you beat the computer at the game of Munch?",
+      "description": "Play the classic poison-apple strategy game in your browser and try to avoid the losing move.",
+      "longDescription": "Munch is a browser game where players take turns eating apples from a grid, and whoever is forced to eat the poison apple loses. This version pits you against a computer opponent built around a solved strategy for the 5x6 board.",
+      "icon": null,
+      "iconEmoji": "🍎",
+      "category": ["web", "games"],
+      "platform": "Web",
+      "price": "Free",
+      "github": "https://github.com/stedwick/munch",
+      "homepage": "https://stedwick.github.io/munch/",
+      "language": "HTML",
+      "features": [
+        "Play Munch instantly in the browser",
+        "Challenge a computer opponent using winning board states",
+        "Learn the poison-apple rules through live play"
+      ]
+    }
+  ]
+}
