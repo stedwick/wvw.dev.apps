@@ -106,7 +106,7 @@
       "platform": "Web",
       "price": "Free",
       "github": "https://github.com/stedwick/pokertracker",
-      "homepage": "https://pokertracker-23081.web.app",
+      "homepage": "https://pokertracker-23081.firebaseapp.com",
       "language": "JavaScript",
       "requirements": "Web browser on desktop or mobile.",
       "features": [
