@@ -1,0 +1,11 @@
+services:
+  store:
+    command: python3 scripts/preview.py
+    health: /
+    portal:
+      url: /stores/stedwick/wvw.dev.apps
+      title: Phil's Apps (local preview)
+      description: wvw.dev with this repository's unpushed apps.json and screenshots. Reload after editing.
+    portals:
+      - url: /
+        title: wvw.dev home (local preview)

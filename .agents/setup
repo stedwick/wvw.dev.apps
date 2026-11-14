@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+# Prepares an orb to preview this store with the wvw.dev front end (see AGENTS.md).
+set -euo pipefail
+cd "$(dirname "${BASH_SOURCE[0]}")/.."
+
+step() { printf '\n==> %s\n' "$*"; }
+start=$SECONDS
+
+step "Checking build tools (bash, curl, git, jq, python3)"
+missing=()
+for tool in curl git jq python3; do
+  command -v "$tool" >/dev/null || missing+=("$tool")
+done
+if [ ${#missing[@]} -gt 0 ]; then
+  echo "Installing ${missing[*]}"
+  sudo apt-get update -qq
+  sudo DEBIAN_FRONTEND=noninteractive apt-get install -y -qq "${missing[@]}"
+fi
+
+step "Syncing ../repos/wvw.dev with upstream f/wvw.dev"
+scripts/sync-wvw-dev.sh
+
+echo
+echo "Setup finished in $((SECONDS - start))s"
