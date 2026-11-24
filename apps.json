@@ -18,6 +18,32 @@
   ],
   "apps": [
     {
+      "id": "phils-skills",
+      "name": "Phil's Skills",
+      "subtitle": "Agent skills for creativity, video editing, and functional code",
+      "description": "Agent skills for Claude Code, Codex, Cursor, and other coding agents: creative web design, automated video editing, and functional programming.",
+      "longDescription": "Phil's Skills is a collection of open-source agent skills built for Claude Code, Codex, Cursor, and other coding agents. Install all of them with npx skills add stedwick/skills, or pick individual skills. Includes creativity (research, remix, and draft non-generic web designs), functional-programming (small named functions, separated side effects, and fast tests in any language), and the vlog-editor suite (vlog-editor, review-vlog-editor, and lets-play-editor) for turning raw recordings into finished videos.",
+      "icon": "https://raw.githubusercontent.com/stedwick/wvw.dev.apps/main/screenshots/phils-skills-icon.png",
+      "iconEmoji": "✨",
+      "category": ["developer-tools", "productivity"],
+      "platform": "Claude Code, Codex, Cursor",
+      "price": "Free",
+      "github": "https://github.com/stedwick/skills",
+      "homepage": "https://github.com/stedwick/skills",
+      "language": "Markdown",
+      "requirements": "Any coding agent that supports Agent Skills (Claude Code, Codex, Cursor, etc.) and Node.js (npx) to install.",
+      "features": [
+        "Install all skills at once with npx skills add stedwick/skills, or pick one",
+        "creativity: researches references, remixes ideas, and drafts three distinct design directions",
+        "functional-programming: guides agents to write small named functions with isolated side effects and fast tests",
+        "vlog-editor suite: edits raw camera, mic, and OBS recordings into finished videos (vlog, review, and let's play)",
+        "Open source and easy to fork and customize for your own workflow"
+      ],
+      "screenshots": [
+        "https://raw.githubusercontent.com/stedwick/skills/HEAD/readme/four.jpg"
+      ]
+    },
+    {
       "id": "arkanoid",
       "name": "Arkanoid (retro 1998)",
       "subtitle": "My 1998 brick breaker, rebuilt for the browser",
