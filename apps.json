@@ -18,6 +18,66 @@
   ],
   "apps": [
     {
+      "id": "arkanoid",
+      "name": "Arkanoid (retro 1998)",
+      "subtitle": "My 1998 brick breaker, rebuilt for the browser",
+      "description": "A 1998 C brick breaker rebuilt for desktop browsers with the original pixel art and all nine power-ups.",
+      "longDescription": "I wrote this brick breaker in C around 1998. You move a paddle, bounce the ball into a wall of bricks, and try to keep it in play. The browser version brings back the original pixel art and all nine power-ups — the lasers are still very powerful. Catch a falling capsule for a power-up, and clear down to five bricks to move on to the next level. Move with the mouse or left and right arrow keys, and click or press Space to launch the ball or fire lasers. Made for desktop browsers; the TypeScript port was built with AI assistance.",
+      "icon": "https://img.itch.zone/aW1nLzMyNjc0MDU4LnBuZw==/original/sMC%2B77.png",
+      "iconEmoji": "🧱",
+      "iconStyle": {
+        "objectFit": "cover",
+        "borderRadius": "16%"
+      },
+      "category": ["web", "games"],
+      "platform": "Web",
+      "price": "Free",
+      "github": "https://github.com/stedwick/arkanoid",
+      "homepage": "https://stedwick.itch.io/arkanoid",
+      "language": "TypeScript",
+      "requirements": "Desktop web browser with mouse or keyboard.",
+      "features": [
+        "Original 1998 pixel art and arcade brick-breaker gameplay in the browser",
+        "All nine falling-capsule power-ups, including lasers",
+        "Play with mouse or left/right arrow keys; Space or click to launch and fire",
+        "Advance to the next level at five bricks remaining — try to beat the 98,574 DOS high score"
+      ],
+      "screenshots": [
+        "https://img.itch.zone/aW1hZ2UvNTQyMzM4My8zMjY3NDA2MC5wbmc=/original/TOIVog.png",
+        "https://img.itch.zone/aW1hZ2UvNTQyMzM4My8zMjY3NDA2MS5wbmc=/original/rYs5ww.png",
+        "https://img.itch.zone/aW1hZ2UvNTQyMzM4My8zMjY3NDA1OS5wbmc=/original/oBURCt.png"
+      ]
+    },
+    {
+      "id": "stedwick-itch",
+      "name": "Phil's itch.io Games",
+      "subtitle": "Indie browser games and game tools on itch.io",
+      "description": "Philip Brocoum's itch.io creator page featuring Arkanoid (retro 1998), PDX Punk Detective Agency, and Quill Game Maker.",
+      "longDescription": "Browse and play Philip Brocoum's indie games and creative tools on itch.io. Includes browser-playable games like Arkanoid (retro 1998) and PDX Punk Detective Agency, plus Quill Game Maker for building your own pixel-art games with an AI coding agent.",
+      "icon": "https://raw.githubusercontent.com/stedwick/wvw.dev.apps/main/screenshots/stedwick-itch-icon.png",
+      "iconEmoji": "🎮",
+      "iconStyle": {
+        "scale": 1.15,
+        "objectFit": "cover"
+      },
+      "category": ["web", "games"],
+      "platform": "Web",
+      "price": "Free",
+      "github": "https://github.com/stedwick",
+      "homepage": "https://stedwick.itch.io",
+      "requirements": "Web browser on desktop or mobile.",
+      "features": [
+        "Play Arkanoid (retro 1998) and PDX Punk Detective Agency right in the browser",
+        "Get Quill Game Maker with full source code and AI coding agent skills",
+        "Follow stedwick on itch.io for new indie game releases and updates"
+      ],
+      "screenshots": [
+        "https://img.itch.zone/aW1nLzMyNjc0MDU4LnBuZw==/original/sMC%2B77.png",
+        "https://raw.githubusercontent.com/stedwick/wvw.dev.apps/main/screenshots/pdx-punk-1.webp",
+        "https://raw.githubusercontent.com/stedwick/wvw.dev.apps/main/screenshots/quill-1.webp"
+      ]
+    },
+    {
       "id": "pdx-punk",
       "name": "PDX Punk Game",
       "subtitle": "A noir detective murder mystery in Cyberpunk Portland",
@@ -55,7 +115,7 @@
       "iconEmoji": "🪶",
       "category": ["games", "developer-tools"],
       "platform": "Web + coding agent",
-      "price": "$25",
+      "price": "$14.99",
       "buyUrl": "https://philipb.gumroad.com/l/quill",
       "github": "https://github.com/stedwick",
       "homepage": "https://quillgamemaker.com",
